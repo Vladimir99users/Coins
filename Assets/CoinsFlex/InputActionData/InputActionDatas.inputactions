@@ -1,0 +1,82 @@
+{
+    "name": "InputActionDatas",
+    "maps": [
+        {
+            "name": "PlayerInteraction",
+            "id": "706b5d5b-0a60-4d60-9af3-588ac3404d26",
+            "actions": [
+                {
+                    "name": "Tap",
+                    "type": "Button",
+                    "id": "005bcded-a6c3-4d3c-ae1f-d3bc729b2bef",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "PositionMouse",
+                    "type": "Value",
+                    "id": "56740489-b05a-497a-9725-1136d3561a4e",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "c402fec7-43b3-45ec-846b-bcfa2749f418",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PlayerController",
+                    "action": "PositionMouse",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "68c0d61e-2f50-495a-835e-cd8100ab9f6d",
+                    "path": "<Touchscreen>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PlayerController",
+                    "action": "PositionMouse",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "714cf80d-ef17-4513-a820-f947580c0aa2",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Tap",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8b026bb3-cbbc-4718-a844-30c2f634b624",
+                    "path": "<Touchscreen>/primaryTouch/tap",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Tap",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "PlayerController",
+            "bindingGroup": "PlayerController",
+            "devices": []
+        }
+    ]
+}
